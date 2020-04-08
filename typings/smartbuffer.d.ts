@@ -622,43 +622,47 @@ declare class SmartBuffer {
      *
      * @return { Number }
      */
-    get readOffset(): number;
+    // get readOffset(): number;
     /**
      * Sets the read offset value of the SmartBuffer instance.
      *
      * @param offset { Number } - The offset value to set.
      */
-    set readOffset(offset: number);
+    // set readOffset(offset: number);
+    readOffset: number;
     /**
      * Gets the current write offset value of the SmartBuffer instance.
      *
      * @return { Number }
      */
-    get writeOffset(): number;
+    // get writeOffset(): number;
     /**
      * Sets the write offset value of the SmartBuffer instance.
      *
      * @param offset { Number } - The offset value to set.
      */
-    set writeOffset(offset: number);
+    // set writeOffset(offset: number);
+    writeOffset: number;
     /**
      * Gets the currently set string encoding of the SmartBuffer instance.
      *
      * @return { BufferEncoding } The string Buffer encoding currently set.
      */
-    get encoding(): BufferEncoding;
+    // get encoding(): BufferEncoding;
     /**
      * Sets the string encoding of the SmartBuffer instance.
      *
      * @param encoding { BufferEncoding } The string Buffer encoding to set.
      */
-    set encoding(encoding: BufferEncoding);
+    // set encoding(encoding: BufferEncoding);
+    encoding: BufferEncoding;
     /**
      * Gets the underlying internal Buffer. (This includes unmanaged data in the Buffer)
      *
      * @return { Buffer } The Buffer value.
      */
-    get internalBuffer(): Buffer;
+    // get internalBuffer(): Buffer;
+    readonly internalBuffer: Buffer;
     /**
      * Gets the value of the internal managed Buffer (Includes managed data only)
      *
