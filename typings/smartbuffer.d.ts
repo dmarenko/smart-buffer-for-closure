@@ -1,4 +1,6 @@
-/// <reference types="node" />
+type Buffer = any
+type BufferEncoding = any
+
 /**
  * Object interface for constructing new SmartBuffer instances.
  */
