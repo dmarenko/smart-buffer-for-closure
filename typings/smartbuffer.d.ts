@@ -1,3 +1,8 @@
+// declare module "smart-buffer" {
+//     type SmartBuffer = any
+//     export var SmartBuffer: SmartBuffer
+// }
+
 type Buffer = any
 type BufferEncoding = any
 
